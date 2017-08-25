@@ -2,7 +2,7 @@
 // input clk - source clock, nrst - asynchronous reset (active low)
 // output out2 - clk/2, out3 - clk/3
 
-module divider
+module clock_divider
   (input logic clk, nrst,
    output logic out2, out3);
   
